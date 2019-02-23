@@ -49,7 +49,7 @@
     "email": "lasse@reload.dk"
   },
   "dependencies": {
-    "@reloaddk/flowdock": "^0.10.1",
+    "@reloaddk/flowdock": "^0.10.2",
     "parent-require": "^1.0.0"
   },
   "devDependencies": {
