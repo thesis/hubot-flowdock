@@ -3,19 +3,7 @@
 [Flowdock](https://www.flowdock.com/) is a web based collaboration and chat app. It integrates nicely with GitHub, Rally, Pivotal Tracker, Twitter, JIRA, Confluence, most CI systems and even email. Read about [how to do ChatOps with Hubot](http://blog.flowdock.com/2014/11/11/chatops-devops-with-hubot/).
 
 You should report any issues or submit any pull requests to the
-[Flowdock adapter](https://github.com/flowdock/hubot-flowdock) repository.
-
-## Compatibility with Hubot
-
- * 0.6.x => Hubot >=2.5.0
- * 0.5.x => Hubot >=2.4.8
- * 0.4.x => Hubot 2.4.2 - 2.4.8
- * 0.3.x => Hubot 2.3.x
- * 0.2.5 => Hubot 2.2.x
-
-## Compatibility with NodeJS
-
- * Preferably use NodeJS 0.8.x or later
+[Flowdock adapter](https://github.com/reload/hubot-flowdock/issues) repository.
 
 ## Getting Started
 
@@ -25,9 +13,8 @@ Then you will need to edit the `package.json` for your hubot and add the
 `hubot-flowdock` adapter dependency.
 
     "dependencies": {
-      "hubot-flowdock": ">= 0.0.1",
-      "hubot": ">= 2.0.0",
-      ...
+      "@reload/hubot-flowdock": ">= 0.8.0",
+      "hubot": ">= 3.3.0"
     }
 
 Then save the file, and commit the changes to your hubot's git repository.

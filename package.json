@@ -1,6 +1,6 @@
 {
-  "name": "hubot-flowdock",
-  "version": "0.7.8",
+  "name": "@reloaddk/hubot-flowdock",
+  "version": "0.8.0",
   "author": {
     "name": "Flowdock",
     "url": "https://www.flowdock.com/"
@@ -21,6 +21,10 @@
     {
       "name": "Otto Vehvilainen",
       "email": "vehvis@flowdock.com"
+    },
+    {
+      "name": "Lasse Borly",
+      "email": "lasse@reload.dk"
     }
   ],
   "keywords": [
@@ -29,6 +33,7 @@
     "adapter"
   ],
   "description": "A Flowdock adapter for hubot",
+  "license": "MIT",
   "licenses": [
     {
       "type": "MIT",
@@ -37,21 +42,22 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/flowdock/hubot-flowdock.git"
+    "url": "https://github.com/reload/hubot-flowdock.git"
   },
   "bugs": {
-    "url": "https://github.com/flowdock/hubot-flowdock/issues",
-    "email": "team@flowdock.com"
+    "url": "https://github.com/reload/hubot-flowdock/issues",
+    "email": "lasse@reload.dk"
   },
   "dependencies": {
-    "flowdock": "^0.9.1",
+    "@reloaddk/flowdock": "^0.10.1",
     "parent-require": "^1.0.0"
   },
   "devDependencies": {
-    "coffee-script": ">=1.2.0"
+    "coffeescript": "~1.9.3"
   },
   "main": "./src/flowdock",
   "engines": {
-    "node": ">=0.4.7"
+    "node": ">=11.10.0",
+    "npm": ">=6.8.0"
   }
 }
