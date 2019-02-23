@@ -1,4 +1,4 @@
-flowdock = require 'flowdock'
+flowdock = require '@reloaddk/flowdock'
 try
   {Adapter,TextMessage} = require 'hubot'
 catch

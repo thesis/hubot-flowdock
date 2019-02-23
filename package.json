@@ -1,5 +1,5 @@
 {
-  "name": "@reloaddk/hubot-flowdock",
+  "name": "hubot-reload-flowdock",
   "version": "0.8.1",
   "author": {
     "name": "Flowdock",
