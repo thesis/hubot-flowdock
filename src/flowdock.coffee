@@ -145,7 +145,7 @@ class Flowdock extends Adapter
       botPrefix = "#{@robot.name}: "
       regex = new RegExp("^@#{@bot.userName}(,|\\b)", "i")
       hubotMsg = msg.replace(regex, botPrefix)
-      if !message.flow && !hubotMsg.match(new RegExp("^#{@robot.name}", "i"))
+      if !message.flow && !hubotMsg.match(new RegExp("^#{@robot.name}", "i")) && !hubotMsg.startsWith(@robot.alias)
         hubotMsg = botPrefix + hubotMsg
 
       author.room = message.flow # Many scripts expect author.room to be available
